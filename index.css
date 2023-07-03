@@ -1,0 +1,220 @@
+
+
+body{
+    background-color: black;
+    padding:0;
+    margin: 0;
+}
+.nav{
+    
+}
+.navcontainner{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+    height:20px;
+    align-items: center;
+    padding:20px;
+    
+
+
+    
+    
+    
+
+
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight:200px;
+    font-family: 'Caprasimo', cursive;
+
+}
+.subnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%;
+    
+    
+    
+
+    
+
+}
+.subnav .navitem{
+    margin-right:150px;
+    
+}
+.navitem input{
+    border-radius: 30px;
+    width:350px;
+    height: 20px;
+
+}
+.watch{
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.watch h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.watch h1:hover{
+    color:yellow;
+}
+
+.checked {
+    color: yellow;
+  }
+  .fa-star {
+     font-size: 20px;
+  }
+  .grid{
+    color:white;
+  }
+
+  button{
+    border-radius: 5px;
+    text-align: center;
+    color: black ;
+    font-weight: bolder;
+    width:190px;
+
+  }
+
+  .grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin: 0px;
+
+  }
+
+
+.first {
+    width:200px;
+    height: 300px;
+}
+.second{
+    width:200px;
+    height: 300px;
+}
+.third{
+    width:200px;
+    height:280px;
+}
+.fourth{
+    width:200px;
+    height:280px;
+}
+.fifth{
+    width:200px;
+    height:280px;  
+}
+.griditem {
+    border-style: solid;
+    border-color:black;
+    background-color:#454545;
+    padding:10px;
+}
+.griditem3 h3 {
+    width:200px;
+
+}
+.griditem4 h3{
+    width:200px;
+}
+.webgridmain{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin: 0;
+    padding:10px;
+
+}
+
+.webgrid{
+    color:white;
+    border-style: solid;
+    border-color: black;
+    background-color: #454545;
+
+    padding:10px;
+
+}
+
+.btn{
+    width:100px;
+  margin-right: 50px;
+    background-color:white;
+}
+.mode{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+;
+  
+}
+.Light{
+  margin:10px;
+  width:50px;
+  
+}
+.night{
+  margin: 10px;
+  width: 50px;
+}
+  
+
+@media (min-width:390px) and (max-width:844px) {
+   
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items:flex-start;
+
+  }
+  .subnav{
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+  .navitem input{
+    width:200px;
+  }
+  .watch h1{
+    font-size:20px;
+    text-align: left ;
+
+  }
+  .watch h2 {
+    font-size: 20px;
+    text-align: left;
+  } 
+  .watch h4{
+    text-align: left;
+  }
+  .grid{
+    display: block;
+    width:230px;
+  }
+  .webgridmain{
+    display: block;
+    width:230px ;
+  }
+}
+
+
+
